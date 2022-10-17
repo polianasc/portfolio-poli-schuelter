@@ -1,13 +1,13 @@
 :root {
   --primary-color: #6d62fc;
   --secondary-color: f9f7fe;
-  --headig-font-family: "Playfair Display", serif;
+  --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
 
 h1 {
   color: black;
-  font-family: var(--headig-font-family);
+  font-family: var(--heading-font-family);
 }
 
 p {
