@@ -1,19 +1,26 @@
+:root {
+  --primary-color: #6d62fc;
+  --secondary-color: f9f7fe;
+  --headig-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
 h1 {
   color: black;
-  font-family: "Playfair Display", serif;
+  font-family: var(--headig-font-family);
 }
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
 }
 
 .hero {
-  background-color: f9f7fe;
+  background-color: var(--secondary-color);
   padding: 200px 60px;
 }
 
 .btn-branding {
-  background-color: #6d62fc;
+  background-color: var(--primary-color);
   border-radius: 4px;
   color: white;
   padding: 10px 15px;
