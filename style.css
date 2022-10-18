@@ -5,7 +5,8 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
-h1 h2 {
+h1,
+h2 {
   color: black;
   font-family: var(--heading-font-family);
 }
@@ -34,4 +35,9 @@ img {
 .projects {
   padding: 50px 10px;
   text-align: center;
+}
+
+.projects-content {
+  display: flex;
+  justify-content: center;
 }
