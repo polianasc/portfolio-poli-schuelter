@@ -11,13 +11,20 @@ h2 {
   font-family: var(--heading-font-family);
 }
 
+h3 {
+  font-size: 20px;
+}
 p {
   font-family: var(--default-font-family);
 }
 
 img {
-  width: 100%;
+  width: 70%;
   height: auto;
+}
+
+li {
+  border: #6d62fc;
 }
 
 .hero {
@@ -32,12 +39,21 @@ img {
   padding: 10px 15px;
 }
 
+.btn-content {
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  padding: 10px 15px;
+}
+
 .projects {
   padding: 50px 10px;
   text-align: center;
 }
 
-.projects-content {
-  display: flex;
-  justify-content: center;
+.resume {
+  padding: 50px 10px;
+  text-align: center;
+  background-color: var(--secondary-color);
 }
