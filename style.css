@@ -1,6 +1,6 @@
 :root {
   --primary-color: #6d62fc;
-  --secondary-color: f9f7fe;
+  --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -14,9 +14,14 @@ p {
   font-family: var(--default-font-family);
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 .hero {
   background-color: var(--secondary-color);
-  padding: 200px 60px;
+  padding: 300px 60px;
 }
 
 .btn-branding {
@@ -24,4 +29,9 @@ p {
   border-radius: 4px;
   color: white;
   padding: 10px 15px;
+}
+
+.projects {
+  padding: 50px 10px;
+  text-align: center;
 }
