@@ -23,10 +23,6 @@ img {
   height: auto;
 }
 
-li {
-  border: #6d62fc;
-}
-
 .hero {
   background-color: var(--secondary-color);
   padding: 300px 60px;
@@ -40,7 +36,6 @@ li {
 }
 
 .btn-content {
-  background-color: var(--secondary-color);
   border-radius: 4px;
   border-color: var(--primary-color);
   color: var(--primary-color);
@@ -56,4 +51,14 @@ li {
   padding: 50px 10px;
   text-align: center;
   background-color: var(--secondary-color);
+}
+
+.skills-elements {
+  color: white;
+  border: var(--primary-color);
+  background-color: var(--primary-color);
+  opacity: 70%;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin: 10px 7px;
 }
