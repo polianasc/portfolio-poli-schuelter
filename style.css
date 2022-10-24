@@ -20,9 +20,10 @@ p {
 }
 
 img {
-  width: 70%;
+  width: 40%;
   height: auto;
-  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
 }
 
 i {
@@ -43,8 +44,7 @@ footer .social-links a {
 }
 
 .hero {
-  background-color: var(--secondary-color);
-  padding: 300px 60px;
+  margin: 300px 60px;
 }
 
 .btn-branding {
@@ -61,13 +61,8 @@ footer .social-links a {
   padding: 10px 15px;
 }
 
-.projects {
-  padding: 50px 10px;
-  text-align: center;
-}
-
-.resume {
-  padding: 50px 10px;
+.about {
+  padding: 10px 10px;
   text-align: center;
   background-color: var(--secondary-color);
 }
@@ -82,7 +77,7 @@ footer .social-links a {
   margin: 10px 7px;
 }
 
-.contact {
+.heading {
   margin: 100px 100px 15px 100px;
   padding: 30px;
   text-align: center;
@@ -91,15 +86,22 @@ footer .social-links a {
 }
 
 .email {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 @media (max-width: 600px) {
-  .email {
-    font-size: 15px;
+  body {
+    text-align: center;
   }
 
-  .contact {
+  img {
+    width: 20%;
+  }
+  .email {
+    font-size: 20px;
+  }
+
+  .heading {
     margin: 15px;
   }
 }
