@@ -4,13 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta
+      name="description"
+      content="Poliana is a front-end developer based in Germany"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap"
       rel="stylesheet"
     />
+
+    <script
+      src="https://kit.fontawesome.com/192fc037a3.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- CSS only -->
     <link
@@ -29,7 +37,7 @@
 
     <link rel="stylesheet" href="/style.css" />
 
-    <title>Poli Schuelter</title>
+    <title>Front-end developer - Poli Schuelter</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg fixed-top bg-light">
@@ -52,18 +60,22 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home"
+              <a
+                class="nav-link active"
+                aria-current="page"
+                title="Homepage"
+                href="#home"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" title="Projects" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html">Resume</a>
+              <a class="nav-link" title="Resume" href="/about.html">Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" title="Contact" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -102,11 +114,23 @@
         </div>
       </div>
     </div>
-
-    <div class="contact" id="contact">
-      <h2>Let's get in touch!</h2>
-      <p>Fell free to contact me by</p>
-      <a href="mailto:polianaschuelter@gmail.com">polianaschuelter@gmail.com</a>
+    <div>
+      <footer>
+        <div class="contact" id="contact">
+          <h2>Let's get in touch!</h2>
+          <a href="mailto:polianaschuelter@gmail.com"
+            >polianaschuelter@gmail.com</a
+          >
+          <div class="social-links text-center">
+            <a href="https://www.instagram.com/polischuelter/" target="_blank">
+              <i class="fa-brands fa-square-instagram"></i>
+            </a>
+            <a href="https://github.com/polianasc" target="_blank">
+              <i class="fa-brands fa-square-github"></i>
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
